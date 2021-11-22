@@ -1,107 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-
-<head>
-
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <title>Disnake - A Discord API Wrapper written in Python</title>
-    <link rel="icon" type="image/png" href="assets/disnake-logo.png"/>
+    <link rel="icon" type="image/png" href="assets/disnake-logo.png" />
 
     <!-- Primary Meta Tags -->
-    <meta name="title" content="Disnake - A Discord API Wrapper written in Python">
-    <meta name="description" content="A modern, easy to use, feature-rich, and async ready API wrapper for Discord written in Python.">
+    <meta
+      name="title"
+      content="Disnake - A Discord API Wrapper written in Python"
+    />
+    <meta
+      name="description"
+      content="A modern, easy to use, feature-rich, and async ready API wrapper for Discord written in Python."
+    />
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://disnake.dev/">
-    <meta property="og:title" content="Disnake - A Discord API Wrapper written in Python">
-    <meta property="og:description" content="A modern, easy to use, feature-rich, and async ready API wrapper for Discord written in Python.">
-    <meta property="og:image" content="assets/disnake-banner.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://disnake.dev/" />
+    <meta
+      property="og:title"
+      content="Disnake - A Discord API Wrapper written in Python"
+    />
+    <meta
+      property="og:description"
+      content="A modern, easy to use, feature-rich, and async ready API wrapper for Discord written in Python."
+    />
+    <meta property="og:image" content="assets/disnake-banner.png" />
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://disnake.dev/">
-    <meta property="twitter:title" content="Disnake - A Discord API Wrapper written in Python">
-    <meta property="twitter:description" content="A modern, easy to use, feature-rich, and async ready API wrapper for Discord written in Python.">
-    <meta property="twitter:image" content="assets/disnake-banner.png">
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://disnake.dev/" />
+    <meta
+      property="twitter:title"
+      content="Disnake - A Discord API Wrapper written in Python"
+    />
+    <meta
+      property="twitter:description"
+      content="A modern, easy to use, feature-rich, and async ready API wrapper for Discord written in Python."
+    />
+    <meta property="twitter:image" content="assets/disnake-banner.png" />
 
-    <meta name="description" content="Disnake - A Discord API Wrapper written in Python"/>
+    <meta
+      name="description"
+      content="Disnake - A Discord API Wrapper written in Python"
+    />
 
     <!-- Fonts -->
-    <link rel="stylesheet" href="https://rsms.me/inter/inter-ui.css">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter-ui.css" />
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/default.css" id="theme-color">
+    <link rel="stylesheet" href="css/default.css" id="theme-color" />
+  </head>
 
-</head>
-
-
-
-<body>
-
-<!-- Navigation -->
-<section class="smart-scroll">
-    <div class="container-fluid">
+  <body>
+    <!-- Navigation -->
+    <section class="smart-scroll">
+      <div class="container-fluid">
         <nav class="navbar navbar-expand-md navbar-dark">
-            <a class="navbar-brand heading-black" href="index.html">
-                <img src="assets/disnake-logo.png" class="navbar-img">
-                Disnake
-            </a>
-            <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
-                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-                    aria-label="Toggle Navigation">
-                <span data-feather="grid"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="https://discord.gg/gJDbCw8aQy" target="_blank">Discord</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="https://docs.disnake.dev/">Documentation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="https://github.com/DisnakeDev/disnake/issues" target="_blank">Issues</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="https://guide.disnake.dev/">Guide</a>
-                    </li>
-                </ul>
-            </div>
+          <a class="navbar-brand heading-black" href="index.html">
+            <img src="assets/disnake-logo.png" class="navbar-img" />
+            Disnake
+          </a>
+          <button
+            class="navbar-toggler navbar-toggler-right border-0"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle Navigation"
+          >
+            <span data-feather="grid"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link page-scroll"
+                  href="https://discord.gg/gJDbCw8aQy"
+                  target="_blank"
+                  >Discord</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="https://docs.disnake.dev/"
+                  >Documentation</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link page-scroll"
+                  href="https://github.com/DisnakeDev/disnake/issues"
+                  target="_blank"
+                  >Issues</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link page-scroll"
+                  href="https://guide.disnake.dev/"
+                  >Guide</a
+                >
+              </li>
+            </ul>
+          </div>
         </nav>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!-- Hero Header -->
-<section class="py-7 py-md-0 bg-hero" id="home">
-    <div class="container">
+    <!-- Hero Header -->
+    <section class="py-7 py-md-0 bg-hero" id="home">
+      <div class="container">
         <div class="row vh-md-100">
-            <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
-                <h1 class="heading-black"><a href="https://pypi.org/project/disnake/" target="_blank"><code>pip install disnake</code></a></h1>
-                <p class="lead py-3">A modern, easy to use, feature-rich, and async ready API wrapper for Discord written in Python.</p>
-                <a href="https://github.com/DisnakeDev/disnake" target="blank">
-                    <button class="btn btn-primary d-inline-flex flex-row align-items-center">
-                        Visit Github
-                        <em class="ml-2" data-feather="arrow-right"></em>
-                    </button>
-                </a>
-            </div>
+          <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
+            <h1 class="heading-black typewriter">
+              <a href="https://pypi.org/project/disnake/" target="_blank"
+                ><code>pip install disnake</code></a
+              >
+            </h1>
+            <p class="lead py-3">
+              A modern, easy to use, feature-rich, and async ready API wrapper
+              for Discord written in Python.
+            </p>
+            <a href="https://github.com/DisnakeDev/disnake" target="blank">
+              <button
+                class="
+                  btn btn-primary
+                  d-inline-flex
+                  flex-row
+                  align-items-center
+                "
+              >
+                Visit Github
+                <em class="ml-2" data-feather="arrow-right"></em>
+              </button>
+            </a>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!-- Javascripts -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
-<script src="js/scripts.js"></script>
-
-</body>
-
-
-
+    <!-- Javascripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
