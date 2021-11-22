@@ -8660,11 +8660,11 @@ a.text-dark:focus {
 
 .typewriter {
   overflow: hidden;
-  border-bottom: 0.1em solid orange;
+  border-right: 0.1em solid orange;
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: 0.27em;
-  animation: typing 2.35s steps(19, end), blink-caret 0.7s step-end infinite;
+  animation: typing 1.25s steps(19, end), blink-caret 0.7s step-end infinite;
 }
 
 @keyframes typing {
