@@ -3,10 +3,6 @@ $(function () {
     // init feather icons
     feather.replace();
 
-    // init tooltip & popovers
-    $('[data-toggle="tooltip"]').tooltip();
-    $('[data-toggle="popover"]').popover();
-
     //page scroll
     $('a.page-scroll').bind('click', function (event) {
         var $anchor = $(this);
